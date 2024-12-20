@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="fr" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Utilisation &mdash; Documentation Multi-Model RAG Assistant </title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=d1a510d7"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="_static/translations.js?v=e6b791cb"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Configuration" href="configuration.html" />
+    <link rel="prev" title="Installation" href="installation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Multi-Model RAG Assistant
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Rechercher docs" aria-label="Rechercher docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contenu</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Utilisation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#configuration-de-l-assistant">Configuration de l’Assistant</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#modeles-supportes">Modèles Supportés</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#interface-utilisateur">Interface Utilisateur</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#interaction">Interaction</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#chargement-des-documents">Chargement des Documents</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#poser-des-questions">Poser des Questions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#fonctionnalites-avancees">Fonctionnalités Avancées</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#conseils">Conseils</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contribuer.html">Contribution</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Multi-Model RAG Assistant</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Utilisation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/utilisation.rst.txt" rel="nofollow"> Afficher la source de la page</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="utilisation">
+<h1>Utilisation<a class="headerlink" href="#utilisation" title="Lien vers cette rubrique"></a></h1>
+<section id="configuration-de-l-assistant">
+<h2>Configuration de l’Assistant<a class="headerlink" href="#configuration-de-l-assistant" title="Lien vers cette rubrique"></a></h2>
+<section id="modeles-supportes">
+<h3>Modèles Supportés<a class="headerlink" href="#modeles-supportes" title="Lien vers cette rubrique"></a></h3>
+<p>L’assistant supporte plusieurs modèles de langage :</p>
+<ul class="simple">
+<li><p>llama3.1</p></li>
+<li><p>mistral</p></li>
+<li><p>llama3.2</p></li>
+<li><p>gemma:7b</p></li>
+<li><p>llama2:13b</p></li>
+</ul>
+</section>
+<section id="interface-utilisateur">
+<h3>Interface Utilisateur<a class="headerlink" href="#interface-utilisateur" title="Lien vers cette rubrique"></a></h3>
+<ol class="arabic simple">
+<li><p>Sélectionnez un modèle LLM dans la barre latérale</p></li>
+<li><p>Ajustez le seuil de pertinence</p></li>
+<li><p>Chargez vos documents</p></li>
+</ol>
+</section>
+</section>
+<section id="interaction">
+<h2>Interaction<a class="headerlink" href="#interaction" title="Lien vers cette rubrique"></a></h2>
+<section id="chargement-des-documents">
+<h3>Chargement des Documents<a class="headerlink" href="#chargement-des-documents" title="Lien vers cette rubrique"></a></h3>
+<ul class="simple">
+<li><p>Formats supportés : PDF, TXT, DOCX</p></li>
+<li><p>Utilisez le bouton « Charger des documents »</p></li>
+<li><p>Processus de traitement automatique</p></li>
+</ul>
+</section>
+<section id="poser-des-questions">
+<h3>Poser des Questions<a class="headerlink" href="#poser-des-questions" title="Lien vers cette rubrique"></a></h3>
+<ul class="simple">
+<li><p>Saisissez votre question dans la zone de texte</p></li>
+<li><p>L’assistant recherche les documents pertinents</p></li>
+<li><p>Réponse générée avec indication des sources</p></li>
+</ul>
+</section>
+</section>
+<section id="fonctionnalites-avancees">
+<h2>Fonctionnalités Avancées<a class="headerlink" href="#fonctionnalites-avancees" title="Lien vers cette rubrique"></a></h2>
+<ul class="simple">
+<li><p>Historique de conversation</p></li>
+<li><p>Vérification de la pertinence des documents</p></li>
+<li><p>Affichage des sources</p></li>
+<li><p>Métriques de confiance</p></li>
+</ul>
+</section>
+<section id="conseils">
+<h2>Conseils<a class="headerlink" href="#conseils" title="Lien vers cette rubrique"></a></h2>
+<ul class="simple">
+<li><p>Utilisez des questions précises</p></li>
+<li><p>Chargez des documents complets</p></li>
+<li><p>Ajustez le seuil de pertinence si nécessaire</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Pied de page">
+        <a href="installation.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Précédent</a>
+        <a href="configuration.html" class="btn btn-neutral float-right" title="Configuration" accesskey="n" rel="next">Suivant <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Droits d'auteur 2024, EL MALIANI LATIFA.</p>
+  </div>
+
+  Compilé avec <a href="https://www.sphinx-doc.org/">Sphinx</a> en utilisant un
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">thème</a>
+    fourni par <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
