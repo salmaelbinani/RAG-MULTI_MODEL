@@ -7,7 +7,7 @@ Ce projet est une application Streamlit pour un assistant de récupération de d
 ## Documentation
 
 La documentation complète du projet est disponible ici :  
-👉 [Consultez la documentation en ligne](https://multi-model-rag-assistant-documentation.readthedocs.io/fr/latest/)
+👉 [Consultez la documentation en ligne](https://rag-multi-model.readthedocs.io/fr/latest/)
 
 ---
 
